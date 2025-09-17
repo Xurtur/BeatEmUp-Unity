@@ -236,8 +236,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: 3e1d32655e8d4474c80e8813236dc159, type: 2}
-  m_audioClip: {fileID: 8300000, guid: 156c5fffab0a2fc44acf4f2ff5d58510, type: 3}
-  m_Resource: {fileID: 8300000, guid: 156c5fffab0a2fc44acf4f2ff5d58510, type: 3}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -323,18 +323,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &103704697
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 103704691}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3936d08a839a190408ff21d97f371bfd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &152167319
 GameObject:
   m_ObjectHideFlags: 0
@@ -2670,9 +2658,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 06ec2b58413e1a1488b30872a441377d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 103704696}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 06ec2b58413e1a1488b30872a441377d, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 103704697}
   m_SourcePrefab: {fileID: 100100000, guid: 06ec2b58413e1a1488b30872a441377d, type: 3}
 --- !u!43 &807094912
 Mesh:
